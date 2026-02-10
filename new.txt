@@ -1,1 +1,13 @@
 New test file
+
+Note: remotes/origin/branch is a local copy or the remote branch within the repo
+# git push -u origin main -> pushes the local changes in the repo to the remote repo (Github Web)
+# git branch -r -> displays all remote branches
+# git branch -a -> displays both remote and local branches 
+
+# git pull -> pulls the changes made in the remote repo 
+# git branch --delete --remotes origin/branchname -> deletes a remote branch in the repo 
+# git push origin --delete branchname -> pushes the deletion of teh branch towards the repo 
+# git fetch -> retrives the changes like commits, branches, and logs from the remote repo
+
+Forking -> Makes a clone of the repo but on your own github account remotely
